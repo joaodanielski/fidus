@@ -1,0 +1,34 @@
+# Dependências
+node_modules/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dados reais do cofre e bancos locais (nunca versionar)
+data/
+*.vault
+*.sqlite
+*.sqlite3
+*.db
+
+# Artefatos de build e testes
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor e sistema operacional
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
