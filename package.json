@@ -1,0 +1,17 @@
+{
+  "name": "fidus",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Zero-knowledge, open-source password manager",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "bench": "node bench/argon2-bench.cjs",
+    "bench:web": "node bench/web/server.cjs"
+  },
+  "dependencies": {
+    "libsodium-wrappers-sumo": "0.8.4"
+  },
+  "devDependencies": {
+    "argon2id": "1.0.1"
+  }
+}
